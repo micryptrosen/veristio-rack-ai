@@ -1,5 +1,10 @@
 # PROGRAM_COMMAND.md
 
+## VPC Policy Reference
+
+Authoritative policy baseline:
+- C:\Dev\Genesis\Projects\Veristio\VPC\VPC_POLICY.md
+
 Authority Source:
 Veristio Program Command (VPC)
 
@@ -33,3 +38,4 @@ ACTIVE
 
 Release Intent:
 INCLUDED in V1.0.0
+
