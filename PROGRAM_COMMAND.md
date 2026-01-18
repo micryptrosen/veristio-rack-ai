@@ -4,29 +4,29 @@ Authority Source:
 Veristio Program Command (VPC)
 
 Class Implemented:
-Rack
+Control
 
 Delegated Authority:
-- Provide physical/edge execution substrate, capacity, and measured constraints for Veristio systems.
-- Report hardware state via Signal-compatible telemetry when authorized.
+- Deterministic governance enforcement and execution gating as commanded by Program Command.
+- Workflow orchestration only within explicit policy/authority inputs provided by Program Command.
 
 Explicit Prohibitions:
 - This repository will never define policy, intent, priorities, or authority (Program Command only).
-- This repository will never self-authorize builds, deployments, or actions (Field executes; Control gates).
-- This repository will never override Control gates or bypass halts.
-- This repository will never suppress or manipulate evidence (Signal preserves truth).
+- This repository will never self-authorize actions or expand scope beyond declared contracts.
+- This repository will never suppress findings or fabricate evidence (Signal-only observes/records).
+- This repository will never execute real-world operations directly (Field executes).
+- This repository will never claim operational coordination authority (NOC aggregates/coordinates views).
 - This repository will never present human guidance as authority (Advantage explains).
 
 Upstream Dependencies:
-- Program Command (scope)
-- Signal (telemetry/evidence interfaces) [when applicable]
-- Control (constraint enforcement surfaces) [when applicable]
+- Program Command (intent/authority inputs)
+- Signal (evidence feeds) [when authorized]
 
 Downstream Consumers:
-- Field (execution environment consuming Rack capacity)
-- Signal (hardware truth feeds)
-- NOC (operational awareness)
-- Advantage (human-facing summaries)
+- Field (execution under gates)
+- NOC (reflect enforcement state)
+- Advantage (human-facing explanation)
+- Rack (constraint inputs where applicable)
 
 Lifecycle Status:
 ACTIVE
